@@ -1,0 +1,92 @@
+/* 
+    Theme name:
+    Author name: 
+    Support email: 
+    Description: 
+    Version:1.0;
+*/
+/* ================
+    css Index part
+    1. Header part
+    2. Navbar part
+    3. Main part
+    4. About part
+    5. Service part
+    6. Counter part
+    7. Feature part
+    8. Portfolio part 
+    9. Team part
+    10. Testimonial part
+    11. News part
+    12. Footer part
+   ================
+*/
+/* ==========  google fonts link ========= */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+/* ==========  default css  ========= */
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #ffc000;
+  --secondary-color: #2d3e50;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: #ffffff;
+}
+ul li {
+  list-style: none;
+  margin: 0;
+}
+.section-padding {
+  padding: 7rem 0;
+}
+.first-word {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.theme-btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-size: 1.6rem;
+  border-radius: 30px;
+  padding: 15px 70px;
+}
+.common-section {
+  padding: 3rem 0;
+}
+.common-section .sub-heading {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.1rem;
+}
+.common-section h2 {
+  margin-bottom: 2.5rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
