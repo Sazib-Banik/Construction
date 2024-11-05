@@ -114,3 +114,32 @@ h4 {
 #header_part .header_right span i {
   color: var(--primary-color);
 }
+/* ========== 2. nav_part start ========== */
+.logo{
+    font-size: 2.5rem!important;
+}
+nav.menu_part {
+  padding: 2rem 0;
+}
+nav .navbar-brand.logo {
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+nav .navbar-brand.logo span {
+  color: var(--primary-color);
+}
+.menu_part .nav-item {
+  margin-left: 6rem;
+}
+.menu_part .nav-item .nav-link {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  transition: 0.4s;
+}
+.menu_part .nav-item .nav-link.active,
+.menu_part .nav-item .nav-link:hover {
+  color: var(--primary-color);
+}
