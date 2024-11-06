@@ -157,3 +157,42 @@ nav .navbar-brand.logo span {
 .carousel-caption p {
   font-size: 1.8rem;
 }
+/* ========== 4. about_part start ========== */
+.about-item {
+  margin-top: 3rem;
+  padding: 6rem 2.5rem;
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border: none;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-item.active,
+.about-item:hover {
+  border: 1px solid var(--primary-color);
+  background-color: #ffffff;
+  color: var(--secondary-color);
+}
+.about-item-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  line-height: 80px;
+  margin-bottom: 4rem;
+}
+.about-item-content h4 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.about-item:hover .about-item-content h4 {
+  color: var(--secondary-color);
+}
+.about-item.active .about-item-img,
+.about-item:hover .about-item-img {
+  background-color: var(--primary-color);
+}
