@@ -12,6 +12,14 @@
   .carousel-caption {
     bottom: 30%;
   }
+  /* ========== 5. service_part start ========== */
+
+  .service-right h2 {
+    padding-bottom: 0.5rem;
+  }
+  .service-item {
+    margin-top: 2rem;
+  }
 }
 @media (max-width: 991.98px) {
   /* ========== 2. nav_part start ========== */
@@ -25,6 +33,14 @@
   .carousel-caption h1 {
     font-size: 5.5rem;
   }
+  /* ========== 5. _part start ========== */
+  .service-right {
+    margin-top: 3rem;
+  }
+  /* ========== 6. counter_part start ========== */
+  .counter-item h3 {
+    height: 55px;
+  }
 }
 @media (max-width: 767.98px) {
   /* ========== 2. main_part start ========== */
@@ -33,6 +49,13 @@
   }
   .carousel-caption h1 {
     font-size: 5rem;
+  }
+  /* ========== 6. counter_part start ========== */
+  .counter-item {
+    margin-top: 2rem;
+  }
+  .counter-item h3 {
+    height: 26px;
   }
 }
 @media (max-width: 575.98px) {
@@ -57,6 +80,12 @@
   .carousel-caption {
     bottom: 10%;
   }
+  /* ========== 5. service_part start ========== */
+  .service-item-img {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
 }
 @media (max-width: 412px) {
   .theme-btn {
@@ -65,5 +94,11 @@
   /* ========== 1. header_part start ========== */
   #header_part span {
     margin-right: 0rem;
+  }
+  /* ========== 5. service_part start ========== */
+  .service-item-img {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
   }
 }

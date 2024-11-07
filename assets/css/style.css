@@ -196,3 +196,38 @@ nav .navbar-brand.logo span {
 .about-item:hover .about-item-img {
   background-color: var(--primary-color);
 }
+/* ========== 5. service_part start ========== */
+.service-right h2 {
+  padding-bottom: 3rem;
+}
+.service-item {
+  margin-top: 4rem;
+}
+.service-item-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  line-height: 80px;
+}
+.service-content h4 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+/* ========== 6. counter_part start ========== */
+#counter_part {
+  background-image: url(../image/counter-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.counter-item h3 {
+  color: #ffffff;
+  font-weight: 700;
+}
+.counter-item .number {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 4.6rem;
+  line-height: 5rem;
+}
