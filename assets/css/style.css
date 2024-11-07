@@ -231,3 +231,7 @@ nav .navbar-brand.logo span {
   font-size: 4.6rem;
   line-height: 5rem;
 }
+/* ========== 7. feature_part start ========== */
+.feature-item {
+  margin-top: 6rem;
+}
