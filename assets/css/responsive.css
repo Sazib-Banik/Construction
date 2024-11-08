@@ -1,4 +1,20 @@
 @media (max-width: 1399.98px) {
+  /* ========== 3. main_part start ========== */
+  #main_part .main_content {
+    padding-top: 12rem;
+  }
+  /* ========== 5. service_part start ========== */
+
+  .service-right h2 {
+    padding-bottom: 0.5rem;
+  }
+  .service-item {
+    margin-top: 2rem;
+  }
+  /* ========== 9. team_part start ========== */
+  .team-item {
+    padding: 50px 35px;
+  }
 }
 @media (max-width: 1199.98px) {
   html {
@@ -19,6 +35,16 @@
   }
   .service-item {
     margin-top: 2rem;
+  }
+  /* ========== 9. team_part start ========== */
+  .team-item .team-item-img {
+    width: 90px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  .team-item .social-links li {
+    width: 25px;
+    margin: 3px;
   }
 }
 @media (max-width: 991.98px) {
@@ -41,6 +67,16 @@
   .counter-item h3 {
     height: 55px;
   }
+  /* ========== 9. team_part start ========== */
+  .team-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-item .team-item-img {
+    margin-right: 0px;
+    margin-bottom: 1rem;
+  }
 }
 @media (max-width: 767.98px) {
   /* ========== 2. main_part start ========== */
@@ -56,6 +92,10 @@
   }
   .counter-item h3 {
     height: 26px;
+  }
+  /* ========== 9. team_part start ========== */
+  .team-item {
+    margin-bottom: 2rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -73,6 +113,10 @@
   .theme-btn {
     font-size: 1.5rem;
     padding: 7px 30px;
+  }
+  /* ========== 12. footer_part start ========== */
+  #footer_part form span {
+    padding: 15px 50px;
   }
 }
 @media (max-width: 430px) {
@@ -100,5 +144,10 @@
     width: 50px;
     height: 50px;
     line-height: 50px;
+  }
+
+  /* ========== 12. footer_part start ========== */
+  #footer_part form span {
+    padding: 15px 30px;
   }
 }

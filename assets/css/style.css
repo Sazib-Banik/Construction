@@ -235,3 +235,119 @@ nav .navbar-brand.logo span {
 .feature-item {
   margin-top: 6rem;
 }
+/* ========== 8. portfolio_part start ========== */
+#filters button.button {
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  margin: 5px;
+  transition: 0.4s;
+}
+#filters button.button:hover {
+  color: var(--primary-color);
+}
+.grids {
+  margin-top: 3rem;
+}
+.grids .col-3 {
+  padding: 0;
+}
+/* ========== 9. team_part start ========== */
+.team-item {
+  padding: 50px;
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  display: flex;
+}
+.team-item .team-item-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  line-height: 100px;
+  text-align: center;
+}
+.team-item .team-item-content h4 {
+  color: #ffffff;
+}
+.team-item .team-item-content p {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+.team-item .social-links li {
+  display: inline-block;
+  width: 30px;
+  margin: 5px;
+  background-color: #ffffff;
+}
+.team-item .social-links li a i {
+  color: var(--secondary-color);
+  transition: 0.4s;
+}
+.team-item .social-links li:hover a i {
+  color: var(--primary-color);
+}
+
+/* ========== 11. news_part start ========== */
+.news-item {
+  margin-top: 3rem;
+}
+.news-item-content {
+  padding: 30px;
+  background-color: var(--primary-color);
+}
+.news-item-content h4 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+.news-item-content p {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+.news-item-content a {
+  color: #2d3e50;
+  font-weight: 500;
+}
+/* ========== 12. footer_part start ========== */
+#footer_part h5 {
+  font-size: 1.8rem;
+  color: #0c0e37;
+  font-weight: 700;
+  margin-bottom: 6rem;
+}
+#footer_part form {
+  display: flex;
+  justify-content: center;
+}
+#footer_part form .input-group {
+  width: 450px !important;
+}
+#footer_part form input {
+  padding: 15px 20px;
+  border-radius: 40px;
+  font-size: 1.8rem;
+  background-color: #f0f0f0;
+  border: none;
+}
+#footer_part form span {
+  position: absolute;
+  right: 0;
+  font-size: 1.8rem;
+  padding: 15px 70px;
+  background-color: #ffc000;
+  color: #ffffff;
+  border-radius: 40px;
+  z-index: 999999;
+}
+#footer_part .theme-btn {
+  display: inline-block;
+  color: #0c0e37;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+#footer_part p {
+  margin-top: 4rem;
+  margin-bottom: 0;
+}
